@@ -11,3 +11,5 @@
 - git commit -m "名字" 
 - git checkout -b name 取名
 - git push 上傳至github
+## java 
+- 定義東西要初始化
