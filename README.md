@@ -7,3 +7,7 @@
 - git status 看狀態
 - cd+ "資料夾位置" 跳到資料夾
 - 右鍵stage change ; message 名稱 ; commit 
+- git add.  增加資料夾內容
+- git commit -m "名字" 
+- git checkout -b name 取名
+- 
