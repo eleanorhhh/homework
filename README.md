@@ -6,3 +6,4 @@
 - git --help 列出所有指令
 - git status 看狀態
 - cd+ "資料夾位置" 跳到資料夾
+- 右鍵stage change ; message 名稱 ; commit 
