@@ -10,6 +10,8 @@ public class Dinosaur {
     public IHand hand;
     public IBody body;
     public IFeet feet;
+    public static int a = 5;
+    public int b = 5;
     Dinosaur(IHead head, IHand hand, IBody body, IFeet feet){
         this.head = head;
         this.hand = hand;
