@@ -26,15 +26,15 @@ public class Matrix {
     public void transpuse() {
         int x = col;
         int y = row;
-        int[][] transpuseMatrix = new int[x][y];
+        int[][] transpuseMatrix = new int[x][y];//創造一個新的矩陣
         for (int i = 0; i < numbers.length; i++) {
             for (int j = 0; j < numbers[0].length; j++) {
-                transpuseMatrix[j][i] = numbers[i][j];
+                transpuseMatrix[j][i] = numbers[i][j];//新的矩陣儲存numbers顛倒x y 的值
             }
 
         }
-        numbers = transpuseMatrix;
-        this.row = x;
+        numbers = transpuseMatrix; //number[i][j]=number[j][i]
+        this.row = x;//row必須指向顛倒的x
         this.col = y;
     }
 }
