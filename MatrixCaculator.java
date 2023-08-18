@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 public class MatrixCaculator {
     public static void printmatrix(int[][] arr) {
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr.length; j++) {
+            for (int j = 0; j < arr[0].length; j++) {
                 System.out.print(arr[i][j] + "\t");
             }
             System.out.print("\n");
@@ -50,9 +50,10 @@ public class MatrixCaculator {
             }
             temp--;
         }
-        printmatrix(arr);
         Matrix mat = new Matrix(i, j, arr);
         arr[0][1] = 8;
+        mat.print();
+        mat.transpuse();
         mat.print();
     }
 
