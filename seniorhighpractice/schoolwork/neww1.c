@@ -61,7 +61,7 @@ int main(int argc, char const *argv[])
             }
 
             else if (ans == 3)
-                break;
+                system("cls");
         }
     }
 

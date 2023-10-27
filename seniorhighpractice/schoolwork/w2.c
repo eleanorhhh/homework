@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
         if(ans==1){
             printf("enter 5 numbers:");
 
-            scanf("%f", &numbers);
+            scanf("%d", &numbers);
             int a = numbers / 10000;
             int b = numbers / 1000;
             b = b - a * 10;
