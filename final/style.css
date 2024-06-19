@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+#txt_purple
+{
+    color: #F1E1FF;
+}
+.txt_white{
+    color:white;
+}
+.txt_black
+{
+  color: 	#8E8E8E	;
+}
+.txt_size
+{
+    font-size:150%;
+}
+.txt_location{
+    position:relative; 
+    top:20px;
+    left:50px; 
+ }
+ .txt_loginlocation{
+  position:relative; 
+  top:20px;
+  left:50px; 
+}
+
+ .login_location
+ {
+    position:relative; 
+    top:20px;
+    right:50px; 
+ }
+ .img_1
+ {  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 550px;
+    background-image: url(img/1.jpg);
+    background-size: cover;
+    background-position: top center;
+    
+ }
+ h2 {
+    font-family: "標楷體";
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+  }
+.img2_container{
+    background-image: url(img/2.jpg);
+  background-repeat: no-repeat;
+  position:relative; 
+  
+  top:200px;
+  left: 250px; 
+  background-size: cover;
+  width: 400px; 
+  height: 400px; 
+    
+        
+      
+}
+.img3_container{
+    background-image: url(img/3.jpg);
+  background-repeat: no-repeat;
+  position:relative; 
+  
+  top:200px;
+  left: 250px; 
+  background-size: cover;
+  width: 400px; 
+  height: 400px; 
+    
+        
+      
+}
+.img4_container{
+    background-image: url(img/4.jpg);
+  background-repeat: no-repeat;
+  position:relative; 
+  
+  top:200px;
+  left: 250px; 
+  background-size: cover;
+  width: 400px; 
+  height: 400px; 
+    
+        
+      
+}
+.img5_container {
+    margin-bottom: 50px;
+   
+    background-repeat: no-repeat;
+    position:relative; 
+  
+    top: 50px;
+    left: 650px; 
+    background-image: url(img/5.jpg);
+    
+    background-size: cover;
+     width: 50px;
+    height: 50px;
+    border-radius:10px;
+  }
+  .img6_container {
+    margin-bottom: 50px;
+   
+    background-repeat: no-repeat;
+    position:relative; 
+  
+    bottom: 50px;
+    left: 800px; 
+    background-image: url(img/6.jpg);
+    
+    background-size: cover;
+     width: 50px;
+    height: 50px;
+    border-radius:10px;
+  }
+  .img8_container{
+    background-image: url(img/8.jpg);
+  background-repeat: no-repeat;
+  position:relative; 
+  
+  bottom: 50px;
+  left: 1250px; 
+  background-size: cover;
+  width: 200px; 
+  height: 50px; 
+  border-radius:10px;
+        
+      
+}
+.img9_container{
+  background-image: url(img/9.jpg);
+background-repeat: no-repeat;
+position:relative; 
+
+bottom: 50px;
+left: 820px;
+background-size: cover;
+width: 200px; 
+height: 50px; 
+border-radius:10px;
+      
+    
+}
+.img10_container{
+  background-image: url(img/10.jpg);
+background-repeat: no-repeat;
+position:relative; 
+
+bottom: 50px;
+left: 1250px; 
+background-size: cover;
+width: 50px; 
+height: 50px; 
+border-radius:10px;
+      
+    
+}
+.img11_container{
+  background-image: url(img/11.jpg);
+background-repeat: no-repeat;
+position:relative; 
+
+bottom: 50px;
+left: 820px;
+background-size: cover;
+width: 200px; 
+height: 50px; 
+border-radius:10px;
+      
+    
+}
+.img12_container{
+  background-image: url(img/12.jpg);
+background-repeat: no-repeat;
+position:relative; 
+
+bottom: 50px;
+left: 1250px; 
+background-size: cover;
+width: 200px; 
+height: 50px; 
+border-radius:10px;
+      
+    
+}
+.img14_container{
+  background-image: url(img/14.jpg);
+background-repeat: no-repeat;
+
+background-size: cover;
+width: 200px; 
+height: 50px; 
+border-radius:10px;
+}
+
+
+.img_txt
+{
+    font-family: "標楷體";
+    position:relative; 
+  
+    bottom: 100px;
+    left: 800px; 
+  
+    font-size: 50px;
+    color:	#6C6C6C	;
+    font-weight: bold;
+}
+  
+#A{  
+    
+   
+    height:100px; 
+    
+    background-color:#D2A2CC;
+   
+   
+    
+}
+#B{  
+    height: 550px; 
+   
+}
+#C {
+    width: 50%;
+    height: 1000px;
+    float: left;
+ 
+   
+}
+
+#D {
+    width: 50%;
+    height: 1000px;
+    float: left;
+    text-align: center;
+
+   
+}
+#E{
+    position:relative; 
+  
+  top:200px;
+
+    width: 100%;
+    height: 150px; 
+    background-color:#D2A2CC;
+  }
+  .buy_location
+  {
+     position:relative; 
+     top:20px;
+     left:830px; 
+  }
+  #F{
+    
+    width: 100%;
+    height: 450px; 
+    background-color:#F1E1FF    ;
+  }
+  #G{
+    
+    width: 100%;
+    height: 350px; 
+  
+  }
+  th{
+    background-color:	#FF60AF;
+    width:25vw;
+    height:100px;
+  }
+  
+  td{
+    background-color:			#F1E1FF;
+    width:25vw;
+    height:100px;
+    text-align:center;
+  }
